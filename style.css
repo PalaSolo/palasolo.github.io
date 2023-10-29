@@ -66,8 +66,13 @@ body{
     border: none;
     width: 90px;
     height: 40px;
-    color: #ccc;
+    color: #e6d9d9;
     font-size: 12px;
+    letter-spacing: 1px;
+    margin-right: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
 }
 
 .navbar .nav-btn.selected{
@@ -87,6 +92,11 @@ body{
 .navbar .item{
     font-size: 13px;
     color: #ccc;
+    background: linear-gradient(95deg, #7e22ce 3.2%, #3b82f6 99.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #7e22ce;
     cursor: pointer;
 }
 
