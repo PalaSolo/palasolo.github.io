@@ -136,6 +136,7 @@ body{
 }
 
 .top-container .info-buttons{
+    text-align: center;
     display: flex;
 }
 
@@ -157,7 +158,19 @@ body{
 
 .top-container .info-btn.selected{
     border: none;
+    letter-spacing: 1px;
+    margin-right: 12px;
     background: linear-gradient(95deg, #7e22ce 3.2%, #3b82f6 99.5%);
+    color: white;
+    transition: background 0.3s; /* Ajout de transition pour une animation fluide */
+}
+
+.top-container .info-btn:hover {
+    background: linear-gradient(95deg, #61259e 3.2%, #2563eb 99.5%); /* Nouvelles couleurs pour le survol */
+}
+
+.top-container .info-btn:active {
+    background: linear-gradient(95deg, #3b82f6 3.2%, #7e22ce 99.5%); /* Nouvelles couleurs pour le clic */
 }
 
 .top-container .nft-box{
